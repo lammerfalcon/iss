@@ -7,10 +7,10 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare && prisma generate && prisma migrate dev",
+    "postinstall": "nuxt prepare && prisma generate",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "vercel-build": "prisma generate && prisma migrate deploy && nuxt build"
+    "vercel-build": "prisma generate && nuxt build"
   },
   "dependencies": {
     "@nuxt/ui": "^2.14.2",
