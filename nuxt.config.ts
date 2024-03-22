@@ -5,4 +5,7 @@ export default defineNuxtConfig({
   ui: {
     safelistColors: ['yellow', 'red', 'green', 'blue', 'gray'],
   },
+  nitro: {
+    preset: 'vercel',
+  },
 })
