@@ -19,8 +19,8 @@ yarn install
 bun install
 ```
 ## evn 
-# dont forget about .env
-# example: DATABASE_URL="file:./dev.db"
+dont forget about .env
+example: DATABASE_URL="file:./dev.db"
 
 ## Development Server
 
