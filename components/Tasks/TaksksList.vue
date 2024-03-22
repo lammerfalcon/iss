@@ -119,7 +119,7 @@ function openEditModal(task: Task) {
               </UBadge>
             </div>
             <div class="text-sm text-gray-500">
-              {{ new Date(task.created_at) }}
+              {{ useDateFormat(task.created_at) }}
             </div>
           </div>
           <div class="flex flex-row items-center gap-2">
