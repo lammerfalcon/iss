@@ -8,16 +8,15 @@ export default defineEventHandler(async (event) => {
   let whereClause = {}
 
   if (query.done !== undefined) {
-    const isDone = query.done === 'true'
+    const isDone = query.done === '1'
     whereClause = { done: isDone }
   }
 
-  // Возвращаем отфильтрованный список задач
   return prisma.task.findMany({
-    where: whereClause, // Применяем фильтр
+    where: whereClause,
     orderBy: [
       {
-        done: 'asc', // Сначала false, потом true
+        done: 'asc',
       },
       {
         created_at: 'desc',
