@@ -20,6 +20,7 @@ bun install
 ```
 ## evn 
 dont forget about .env
+
 example: DATABASE_URL="file:./dev.db"
 
 ## Development Server
