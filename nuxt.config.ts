@@ -6,6 +6,6 @@ export default defineNuxtConfig({
     safelistColors: ['yellow', 'red', 'green', 'blue', 'gray'],
   },
   nitro: {
-    preset: 'vercel',
+    preset: 'vercel-edge',
   },
 })
